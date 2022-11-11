@@ -63,7 +63,7 @@ namespace XamFormsImageResize
         {
             var assembly = typeof(HomePage).GetTypeInfo().Assembly;
             byte[] imageData;
-            Stream stream = assembly.GetManifestResourceStream(ResourcePrefix + "OriginalImage.JPG");
+            Stream stream = assembly.GetManifestResourceStream(ResourcePrefix + "SourceImage.jpg");
             if (stream != null)
             {
 
@@ -72,7 +72,7 @@ namespace XamFormsImageResize
                     stream.CopyTo(ms);
                     imageData = ms.ToArray();
                 }
-            byte[] resizedImage = await ImageResizer.ResizeImage(imageData, 400, 400);
+            byte[] resizedImage = await ImageResizer.ResizeImage(imageData, 840, 840);
 
             this._photo.Source = ImageSource.FromStream(() => new MemoryStream(resizedImage));
             }

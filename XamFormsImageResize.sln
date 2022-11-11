@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamFormsImageResize", "XamFormsImageResize\XamFormsImageResize.shproj", "{69422B07-3E22-4C1F-88C0-865877709DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamFormsImageResize.Android", "Android\XamFormsImageResize.Android.csproj", "{7D151F69-2B64-4102-98D8-7F10CBA4D648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamFormsImageResize.UWP", "UWP\XamFormsImageResize.UWP.csproj", "{30DE145D-B9A0-4871-8AC1-F921983848ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|ARM.Build.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|ARM.Deploy.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|ARM64.Deploy.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|x64.Build.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|ARM.Build.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|ARM.Deploy.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|ARM64.Build.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|ARM64.Deploy.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|x64.Build.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|x64.Deploy.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|x86.Build.0 = Release|Any CPU
+		{7D151F69-2B64-4102-98D8-7F10CBA4D648}.Release|x86.Deploy.0 = Release|Any CPU
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|Any CPU.Build.0 = Debug|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|ARM.ActiveCfg = Debug|ARM
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|ARM.Build.0 = Debug|ARM
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|ARM.Deploy.0 = Debug|ARM
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|ARM64.Build.0 = Debug|ARM64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|x64.ActiveCfg = Debug|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|x64.Build.0 = Debug|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|x64.Deploy.0 = Debug|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|x86.ActiveCfg = Debug|x86
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|x86.Build.0 = Debug|x86
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Debug|x86.Deploy.0 = Debug|x86
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|Any CPU.ActiveCfg = Release|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|Any CPU.Build.0 = Release|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|Any CPU.Deploy.0 = Release|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|ARM.ActiveCfg = Release|ARM
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|ARM.Build.0 = Release|ARM
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|ARM.Deploy.0 = Release|ARM
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|ARM64.ActiveCfg = Release|ARM64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|ARM64.Build.0 = Release|ARM64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|ARM64.Deploy.0 = Release|ARM64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|x64.ActiveCfg = Release|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|x64.Build.0 = Release|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|x64.Deploy.0 = Release|x64
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|x86.ActiveCfg = Release|x86
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|x86.Build.0 = Release|x86
+		{30DE145D-B9A0-4871-8AC1-F921983848ED}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D781FAF-11FA-4AB9-A288-E7E6375DEF76}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XamFormsImageResize\XamFormsImageResize.projitems*{30de145d-b9a0-4871-8ac1-f921983848ed}*SharedItemsImports = 4
+		XamFormsImageResize\XamFormsImageResize.projitems*{69422b07-3e22-4c1f-88c0-865877709dff}*SharedItemsImports = 13
+		XamFormsImageResize\XamFormsImageResize.projitems*{7d151f69-2b64-4102-98d8-7f10cba4d648}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
